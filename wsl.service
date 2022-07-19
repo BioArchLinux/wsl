@@ -1,0 +1,8 @@
+[Unit]
+Description=wsl tar file generator
+Wants=wsl.timer
+
+[Service]
+User=root
+Type=simple
+ExecStart=/usr/share/lilac/wsl/man_img.sh
