@@ -2,7 +2,7 @@
 Description=Runs wsl generator every Mon
 
 [Timer]
-OnCalendar=Mon *-*-* 01:00:00
+OnCalendar=Mon *-*-* 02:00:00
 Unit=wsl.service
 
 [Install]
