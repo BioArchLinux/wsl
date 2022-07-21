@@ -1,8 +1,8 @@
 [Unit]
-Description=Runs wsl generator the first day every month
+Description=Runs wsl generator every Mon
 
 [Timer]
-OnCalendar=*-*-01 01:00:00
+OnCalendar=Mon *-*-* 01:00:00
 Unit=wsl.service
 
 [Install]
