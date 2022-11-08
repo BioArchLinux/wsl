@@ -6,12 +6,11 @@ Download [wsl tar file](https://repo.bioarchlinux.org/wsl) from [any mirror](htt
 
 ## Import to WSL
 
-You have to enable wsl first. Specific a `StoragePath` and run the following command under the tar file directory.
+You have to enable wsl first. 
 
-```
-wsl --import BioArchLinux StoragePath .\bioarchlinux.tar
-wsl -d BioArchLinux
-```
+ - decompress the tar file
+ - click the `BioArch.exe`
+ 
 ## Choose mirror
 
 then you need to choose a mirror of archlinux and bioarchlinux
