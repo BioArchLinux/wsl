@@ -33,3 +33,7 @@ Finally, you can install any packages from BioArchLinux
 pacman -Syu
 pacman -S foo
 ```
+
+## Acknowledgment
+
+Thanks go to [James Yang](https://github.com/llxlr) for contributing exe launcher file.
