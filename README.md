@@ -13,6 +13,12 @@ You have to enable wsl first.
  
 ## Choose mirror
 
+Firstly, you should  enter WSL
+
+```
+wsl -d BioArch
+```
+
 then you need to choose a mirror of archlinux and bioarchlinux
 
 choose mirror of archlinux from [here](https://archlinux.org/mirrorlist/) and run the following command ( take sdu mirror as the example)
