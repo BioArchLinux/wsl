@@ -18,3 +18,5 @@ do
 	mv bioarchlinux-$(date "+%Y%m%d").tar.$bin /usr/share/lilac/Repo/wsl
 done
 mv bioarchlinux-$(date "+%Y%m%d").tar /usr/share/lilac/Repo/wsl/
+
+rm rootfs.tar.gz
